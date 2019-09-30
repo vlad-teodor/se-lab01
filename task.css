@@ -1,0 +1,20 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.man {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0);}
+  50%  {transform: translate3d(0, -50px,0) ;}
+  70% {transform: translate3d(0, 50px,0);}
+}
